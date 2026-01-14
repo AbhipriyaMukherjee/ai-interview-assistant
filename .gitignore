@@ -1,0 +1,5 @@
+.env
+backend/person2_nlp/.env
+.venv
+__pycache__/
+*.pyc
