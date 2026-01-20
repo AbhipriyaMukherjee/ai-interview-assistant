@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div style="display: flex; justify-content: center; align-items: center; min-height: 60vh;">
+    <div class="glass-card" style="width: 100%; max-width: 450px;">
+        <div style="text-align: center; margin-bottom: 2rem;">
+            <i class="fa fa-user-lock" style="font-size: 3rem; color: var(--dark-green);"></i>
+            <h1 style="color: var(--dark-green); margin-top: 1rem; font-weight: 900;">Welcome Back</h1>
+        </div>
+        
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your registered email">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required placeholder="Enter your password">
+            </div>
+
+            <button type="submit" style="width: 100%; background: var(--dark-green); color: var(--baby-blue); padding: 18px; border: none; border-radius: 12px; font-weight: 900; font-size: 1.2rem; cursor: pointer; transition: 0.3s; margin-top: 1rem; border: 2px solid var(--baby-blue);">
+                LOG IN
+            </button>
+        </form>
+        
+        <p style="text-align: center; margin-top: 2rem; font-weight: 600;">
+            New to CareerAI? <a href="/signup" style="color: var(--dark-green); text-decoration: underline;">Join now</a>
+        </p>
+    </div>
+</div>
+{% endblock %}

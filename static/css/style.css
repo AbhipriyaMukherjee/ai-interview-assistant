@@ -1,0 +1,50 @@
+:root {
+    /* Industrial Professional Palette */
+    --dark-green: #023047;   /* Deep, trustworthy base */
+    --baby-blue: #8ecae6;    /* Soft, modern accent */
+    --accent: #219ebc;       /* Vibrant transition blue */
+    --light-bg: #f8fafc;     /* Clean background for contrast */
+    --text-main: #1e293b;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--light-bg);
+    color: var(--text-main);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+/* Identical Sidebar/Navbar style */
+.navbar {
+    background-color: var(--dark-green);
+    color: var(--baby-blue);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid var(--baby-blue);
+}
+
+.btn-start {
+    background-color: var(--dark-green);
+    color: var(--baby-blue);
+    border: 2px solid var(--baby-blue);
+    padding: 10px 25px;
+    border-radius: 50px; /* Modern pill shape */
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-start:hover {
+    background-color: var(--baby-blue);
+    color: var(--dark-green);
+}
+
+.analysis-card {
+    background: var(--white);
+    border-left: 5px solid var(--dark-green);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Mode</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<div class="card">
+    <h2>Choose Interview Mode for {{ role }}</h2>
+    <div class="mode-options" style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+        <a href="/interview/live?role={{ role }}&mode=text" class="btn-secondary">⌨️ Text Only</a>
+        <a href="/interview/live?role={{ role }}&mode=audio" class="btn-secondary">🎙️ Audio Only</a>
+        <a href="/interview/live?role={{ role }}&mode=video" class="btn-start">🎥 Audio + Video</a>
+    </div>
+</div>
+</body>
+</html>

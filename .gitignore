@@ -1,5 +1,9 @@
-.env
-backend/person2_nlp/.env
-.venv
+# JetBrains / PyCharm settings
+.idea/
+*.iml
+
+# Already included earlier
+venv/
+career_ai.db
+uploads/
 __pycache__/
-*.pyc

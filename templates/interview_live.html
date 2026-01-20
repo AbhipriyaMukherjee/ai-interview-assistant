@@ -1,0 +1,79 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="glass-card" style="text-align: center; border-top: 10px solid var(--dark-green);">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+        <h1 style="color: var(--dark-green); font-weight: 900; margin: 0;">TECHNICAL AUDIT</h1>
+        <div style="background: var(--baby-blue); padding: 5px 20px; border-radius: 50px; font-weight: 900; color: var(--dark-green);">
+            QUESTION <span id="q-number">1</span> OF 2
+        </div>
+    </div>
+    
+    <div id="question-container" style="background: #f0f9ff; padding: 2.5rem; border-radius: 20px; border-left: 8px solid var(--dark-green); margin-bottom: 2rem; min-height: 120px; display: flex; align-items: center; justify-content: center;">
+        <h2 id="question-text" style="font-weight: 800; color: var(--dark-green);">{{ questions[0].question }}</h2>
+    </div>
+
+    <div style="position: relative; display: inline-block;">
+        <video id="webcam" autoplay muted style="width: 100%; max-width: 600px; border-radius: 25px; border: 5px solid var(--baby-blue); background: #000;"></video>
+        <div id="rec-indicator" style="position: absolute; top: 20px; right: 20px; background: #ff4d4d; color: white; padding: 8px 20px; border-radius: 50px; font-weight: 900; display: none;">● RECORDING</div>
+    </div>
+
+    <div style="margin-top: 3rem;">
+        <button id="record-btn" class="btn-primary" style="padding: 20px 50px; font-size: 1.3rem;">START ANSWERING</button>
+    </div>
+</div>
+
+<script>
+    const questions = {{ questions | tojson }};
+    let currentIndex = 0;
+    let mediaRecorder;
+    let chunks = [];
+
+    const recBtn = document.getElementById('record-btn');
+    const qText = document.getElementById('question-text');
+    const qNum = document.getElementById('q-number');
+    const indicator = document.getElementById('rec-indicator');
+
+    recBtn.onclick = async () => {
+        if (recBtn.innerText === "START ANSWERING") {
+            const stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true });
+            document.getElementById('webcam').srcObject = stream;
+            mediaRecorder = new MediaRecorder(stream);
+            mediaRecorder.ondataavailable = e => chunks.push(e.data);
+            mediaRecorder.onstop = uploadAndNext;
+            mediaRecorder.start();
+            recBtn.innerText = "SUBMIT ANSWER";
+            recBtn.style.background = "#ff4d4d";
+            indicator.style.display = "block";
+        } else {
+            mediaRecorder.stop();
+            recBtn.innerText = "UPLOADING...";
+            recBtn.disabled = true;
+            indicator.style.display = "none";
+        }
+    };
+
+    function uploadAndNext() {
+        const blob = new Blob(chunks, { type: 'video/webm' });
+        const formData = new FormData();
+        formData.append('video', blob);
+        formData.append('role', "{{ role }}");
+        formData.append('question_text', questions[currentIndex].question);
+
+        fetch('/submit_interview', { method: 'POST', body: formData })
+            .then(res => res.json())
+            .then(data => {
+                chunks = [];
+                currentIndex++;
+                if (currentIndex < questions.length) {
+                    qText.innerText = questions[currentIndex].question;
+                    qNum.innerText = currentIndex + 1;
+                    recBtn.innerText = "START ANSWERING";
+                    recBtn.style.background = "var(--dark-green)";
+                    recBtn.disabled = false;
+                } else {
+                    window.location.href = "/feedback?id=" + data.id;
+                }
+            });
+    }
+</script>
+{% endblock %}

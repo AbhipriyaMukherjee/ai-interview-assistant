@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="glass-card" style="border-top: 10px solid var(--dark-green);">
+    <h1 style="color: var(--dark-green); font-weight: 900; text-align: center; text-transform: uppercase;">Technical Audit Result</h1>
+    <p style="text-align: center; font-weight: 700; color: #64748b; margin-bottom: 3rem;">2-QUESTION DEPTH ANALYSIS: {{ result.role }}</p>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 3rem;">
+        <div style="text-align: center; padding: 2rem; background: #f0f9ff; border-radius: 20px; border: 3px solid var(--baby-blue);">
+            <h3 style="font-weight: 900; color: var(--dark-green); margin-top: 0;">GLOBAL TECH GRADE</h3>
+            <div style="font-size: 4.5rem; font-weight: 900; color: var(--dark-green);">
+                {{ result.score }}<span style="font-size: 1.5rem; color: var(--baby-blue);">%</span>
+            </div>
+        </div>
+        <div style="text-align: center; padding: 2rem; background: #f0f9ff; border-radius: 20px; border: 2px solid var(--baby-blue);">
+            <h3 style="font-weight: 900; color: var(--dark-green);">VISUAL PRESENCE</h3>
+            <div style="font-size: 4.5rem; font-weight: 900; color: var(--baby-blue);">
+                {{ result.video_score }}<span style="font-size: 1.5rem; color: var(--dark-green);">%</span>
+            </div>
+        </div>
+    </div>
+
+    <h3 style="font-weight: 900; color: var(--dark-green); text-transform: uppercase; border-bottom: 4px solid var(--baby-blue); padding-bottom: 10px;">
+        <i class="fa fa-search"></i> Technical Audit Summary
+    </h3>
+    <div style="background: white; padding: 2.5rem; border-radius: 20px; border-left: 12px solid var(--dark-green); box-shadow: inset 0 2px 8px rgba(0,0,0,0.05); margin-bottom: 2rem;">
+        <p style="line-height: 1.7; font-weight: 600; color: #1e293b; font-size: 1.1rem;">{{ result.feedback }}</p>
+    </div>
+
+    <h3 style="font-weight: 900; color: var(--dark-green); text-transform: uppercase;">Candid Transcript</h3>
+    <div style="background: #f8fafc; padding: 1.5rem; border-radius: 10px; font-style: italic; color: #475569; border: 1px solid #e2e8f0;">
+        "{{ result.transcript }}"
+    </div>
+
+    <div style="text-align: center; margin-top: 4rem;">
+        <a href="/" class="btn-primary" style="padding: 15px 60px;">BACK TO HOME</a>
+    </div>
+</div>
+{% endblock %}
