@@ -1,0 +1,301 @@
+persona,query,category,rank,score,entry_label,n_projects,n_experience,n_certifications,n_other
+Persona_1_Sparse_Fresher,Backend Software Engineer,projects,1,0.2445,Campus Calculator,1,0,0,0
+Persona_1_Sparse_Fresher,Backend Software Engineer,experience,,,,1,0,0,0
+Persona_1_Sparse_Fresher,Backend Software Engineer,certifications,,,,1,0,0,0
+Persona_1_Sparse_Fresher,Backend Software Engineer,other,,,,1,0,0,0
+Persona_1_Sparse_Fresher,Frontend Software Engineer,projects,1,0.2472,Campus Calculator,1,0,0,0
+Persona_1_Sparse_Fresher,Frontend Software Engineer,experience,,,,1,0,0,0
+Persona_1_Sparse_Fresher,Frontend Software Engineer,certifications,,,,1,0,0,0
+Persona_1_Sparse_Fresher,Frontend Software Engineer,other,,,,1,0,0,0
+Persona_1_Sparse_Fresher,Full Stack Software Engineer,projects,1,0.3038,Campus Calculator,1,0,0,0
+Persona_1_Sparse_Fresher,Full Stack Software Engineer,experience,,,,1,0,0,0
+Persona_1_Sparse_Fresher,Full Stack Software Engineer,certifications,,,,1,0,0,0
+Persona_1_Sparse_Fresher,Full Stack Software Engineer,other,,,,1,0,0,0
+Persona_1_Sparse_Fresher,Data Scientist / Machine Learning Engineer,projects,1,0.2654,Campus Calculator,1,0,0,0
+Persona_1_Sparse_Fresher,Data Scientist / Machine Learning Engineer,experience,,,,1,0,0,0
+Persona_1_Sparse_Fresher,Data Scientist / Machine Learning Engineer,certifications,,,,1,0,0,0
+Persona_1_Sparse_Fresher,Data Scientist / Machine Learning Engineer,other,,,,1,0,0,0
+Persona_1_Sparse_Fresher,DevOps / Cloud Engineer,projects,1,0.1311,Campus Calculator,1,0,0,0
+Persona_1_Sparse_Fresher,DevOps / Cloud Engineer,experience,,,,1,0,0,0
+Persona_1_Sparse_Fresher,DevOps / Cloud Engineer,certifications,,,,1,0,0,0
+Persona_1_Sparse_Fresher,DevOps / Cloud Engineer,other,,,,1,0,0,0
+Persona_2_Over_Achiever,Backend Software Engineer,projects,1,0.3348,Code Review Tool,5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,projects,2,0.3284,Chat Assistant,5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,projects,3,0.2139,Recommendation Engine,5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,projects,4,0.1556,Smart Healthcare Platform,5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,projects,5,0.1334,Autonomous Drone System,5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,experience,1,0.6749,Software Intern @ CloudWorks,5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,experience,2,0.2578,Research Intern @ Future AI Lab,5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,experience,3,0.2145,AI Intern @ Vision Labs,5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,certifications,1,0.3422,AWS Cloud Practitioner,5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,certifications,2,0.2093,Informal Open Source Contributor Certificate,5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,certifications,3,0.1767,Deep Learning Specialization,5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,other,1,0.3128,[volunteer] Teaching programming workshops,5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,other,2,0.2879,[workshops] AI Bootcamp,5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,other,3,0.2307,"[competitive_programming] Codeforces, LeetCode",5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,other,4,0.2279,[extracurricular] Coding club lead,5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,other,5,0.1119,[references] Available on request,5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,other,6,0.1045,[hobbies] Photography,5,3,3,7
+Persona_2_Over_Achiever,Backend Software Engineer,other,7,-0.004,[publications] Transformer Based Medical Imaging Analysis,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,projects,1,0.2978,Code Review Tool,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,projects,2,0.2896,Chat Assistant,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,projects,3,0.1445,Smart Healthcare Platform,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,projects,4,0.1436,Recommendation Engine,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,projects,5,0.1171,Autonomous Drone System,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,experience,1,0.5807,Software Intern @ CloudWorks,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,experience,2,0.2516,Research Intern @ Future AI Lab,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,experience,3,0.2265,AI Intern @ Vision Labs,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,certifications,1,0.2892,AWS Cloud Practitioner,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,certifications,2,0.2151,Informal Open Source Contributor Certificate,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,certifications,3,0.1494,Deep Learning Specialization,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,other,1,0.316,[volunteer] Teaching programming workshops,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,other,2,0.2717,[workshops] AI Bootcamp,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,other,3,0.2287,[extracurricular] Coding club lead,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,other,4,0.1939,"[competitive_programming] Codeforces, LeetCode",5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,other,5,0.1374,[hobbies] Photography,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,other,6,0.0791,[references] Available on request,5,3,3,7
+Persona_2_Over_Achiever,Frontend Software Engineer,other,7,0.0333,[publications] Transformer Based Medical Imaging Analysis,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,projects,1,0.2776,Code Review Tool,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,projects,2,0.2306,Chat Assistant,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,projects,3,0.1391,Recommendation Engine,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,projects,4,0.1388,Smart Healthcare Platform,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,projects,5,0.0717,Autonomous Drone System,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,experience,1,0.4489,Software Intern @ CloudWorks,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,experience,2,0.2221,Research Intern @ Future AI Lab,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,experience,3,0.2131,AI Intern @ Vision Labs,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,certifications,1,0.2613,AWS Cloud Practitioner,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,certifications,2,0.2104,Informal Open Source Contributor Certificate,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,certifications,3,0.2037,Deep Learning Specialization,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,other,1,0.3173,[volunteer] Teaching programming workshops,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,other,2,0.3032,[workshops] AI Bootcamp,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,other,3,0.2585,[extracurricular] Coding club lead,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,other,4,0.2326,"[competitive_programming] Codeforces, LeetCode",5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,other,5,0.1029,[hobbies] Photography,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,other,6,0.0247,[references] Available on request,5,3,3,7
+Persona_2_Over_Achiever,Full Stack Software Engineer,other,7,0.0211,[publications] Transformer Based Medical Imaging Analysis,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,projects,1,0.2531,Chat Assistant,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,projects,2,0.196,Recommendation Engine,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,projects,3,0.1577,Code Review Tool,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,projects,4,0.144,Smart Healthcare Platform,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,projects,5,0.0256,Autonomous Drone System,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,experience,1,0.3848,Research Intern @ Future AI Lab,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,experience,2,0.3822,AI Intern @ Vision Labs,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,experience,3,0.3466,Software Intern @ CloudWorks,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,certifications,1,0.3461,Deep Learning Specialization,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,certifications,2,0.226,AWS Cloud Practitioner,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,certifications,3,0.1177,Informal Open Source Contributor Certificate,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,other,1,0.3787,[workshops] AI Bootcamp,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,other,2,0.2569,[volunteer] Teaching programming workshops,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,other,3,0.2222,[extracurricular] Coding club lead,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,other,4,0.1978,[hobbies] Photography,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,other,5,0.1399,"[competitive_programming] Codeforces, LeetCode",5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,other,6,0.1054,[publications] Transformer Based Medical Imaging Analysis,5,3,3,7
+Persona_2_Over_Achiever,Data Scientist / Machine Learning Engineer,other,7,0.0204,[references] Available on request,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,projects,1,0.2129,Chat Assistant,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,projects,2,0.1829,Smart Healthcare Platform,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,projects,3,0.163,Code Review Tool,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,projects,4,0.1331,Autonomous Drone System,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,projects,5,0.0426,Recommendation Engine,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,experience,1,0.5437,Software Intern @ CloudWorks,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,experience,2,0.2499,Research Intern @ Future AI Lab,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,experience,3,0.1368,AI Intern @ Vision Labs,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,certifications,1,0.6074,AWS Cloud Practitioner,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,certifications,2,0.2025,Informal Open Source Contributor Certificate,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,certifications,3,0.1018,Deep Learning Specialization,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,other,1,0.2659,[workshops] AI Bootcamp,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,other,2,0.1557,[volunteer] Teaching programming workshops,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,other,3,0.135,"[competitive_programming] Codeforces, LeetCode",5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,other,4,0.1007,[extracurricular] Coding club lead,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,other,5,0.0856,[hobbies] Photography,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,other,6,0.0505,[publications] Transformer Based Medical Imaging Analysis,5,3,3,7
+Persona_2_Over_Achiever,DevOps / Cloud Engineer,other,7,0.0459,[references] Available on request,5,3,3,7
+Persona_3_Career_Switcher,Backend Software Engineer,projects,1,0.2517,Personal Portfolio Website,2,1,2,0
+Persona_3_Career_Switcher,Backend Software Engineer,projects,2,0.2164,Expense Tracker,2,1,2,0
+Persona_3_Career_Switcher,Backend Software Engineer,experience,1,0.1785,Digital Marketing Specialist,2,1,2,0
+Persona_3_Career_Switcher,Backend Software Engineer,certifications,1,0.2992,Full Stack Web Development Certificate,2,1,2,0
+Persona_3_Career_Switcher,Backend Software Engineer,certifications,2,0.2318,JavaScript Programming Certificate,2,1,2,0
+Persona_3_Career_Switcher,Backend Software Engineer,other,,,,2,1,2,0
+Persona_3_Career_Switcher,Frontend Software Engineer,projects,1,0.2608,Personal Portfolio Website,2,1,2,0
+Persona_3_Career_Switcher,Frontend Software Engineer,projects,2,0.1732,Expense Tracker,2,1,2,0
+Persona_3_Career_Switcher,Frontend Software Engineer,experience,1,0.2076,Digital Marketing Specialist,2,1,2,0
+Persona_3_Career_Switcher,Frontend Software Engineer,certifications,1,0.3108,Full Stack Web Development Certificate,2,1,2,0
+Persona_3_Career_Switcher,Frontend Software Engineer,certifications,2,0.2327,JavaScript Programming Certificate,2,1,2,0
+Persona_3_Career_Switcher,Frontend Software Engineer,other,,,,2,1,2,0
+Persona_3_Career_Switcher,Full Stack Software Engineer,projects,1,0.2489,Personal Portfolio Website,2,1,2,0
+Persona_3_Career_Switcher,Full Stack Software Engineer,projects,2,0.1346,Expense Tracker,2,1,2,0
+Persona_3_Career_Switcher,Full Stack Software Engineer,experience,1,0.1731,Digital Marketing Specialist,2,1,2,0
+Persona_3_Career_Switcher,Full Stack Software Engineer,certifications,1,0.5411,Full Stack Web Development Certificate,2,1,2,0
+Persona_3_Career_Switcher,Full Stack Software Engineer,certifications,2,0.219,JavaScript Programming Certificate,2,1,2,0
+Persona_3_Career_Switcher,Full Stack Software Engineer,other,,,,2,1,2,0
+Persona_3_Career_Switcher,Data Scientist / Machine Learning Engineer,projects,1,0.1437,Expense Tracker,2,1,2,0
+Persona_3_Career_Switcher,Data Scientist / Machine Learning Engineer,projects,2,0.1281,Personal Portfolio Website,2,1,2,0
+Persona_3_Career_Switcher,Data Scientist / Machine Learning Engineer,experience,1,0.2868,Digital Marketing Specialist,2,1,2,0
+Persona_3_Career_Switcher,Data Scientist / Machine Learning Engineer,certifications,1,0.1689,Full Stack Web Development Certificate,2,1,2,0
+Persona_3_Career_Switcher,Data Scientist / Machine Learning Engineer,certifications,2,0.1577,JavaScript Programming Certificate,2,1,2,0
+Persona_3_Career_Switcher,Data Scientist / Machine Learning Engineer,other,,,,2,1,2,0
+Persona_3_Career_Switcher,DevOps / Cloud Engineer,projects,1,0.1545,Personal Portfolio Website,2,1,2,0
+Persona_3_Career_Switcher,DevOps / Cloud Engineer,projects,2,0.0319,Expense Tracker,2,1,2,0
+Persona_3_Career_Switcher,DevOps / Cloud Engineer,experience,1,0.1163,Digital Marketing Specialist,2,1,2,0
+Persona_3_Career_Switcher,DevOps / Cloud Engineer,certifications,1,0.3639,Full Stack Web Development Certificate,2,1,2,0
+Persona_3_Career_Switcher,DevOps / Cloud Engineer,certifications,2,0.1709,JavaScript Programming Certificate,2,1,2,0
+Persona_3_Career_Switcher,DevOps / Cloud Engineer,other,,,,2,1,2,0
+Persona_4_Transfer_Student,Backend Software Engineer,projects,1,0.2695,Library Management System,3,1,0,0
+Persona_4_Transfer_Student,Backend Software Engineer,projects,2,0.2589,Weather Application,3,1,0,0
+Persona_4_Transfer_Student,Backend Software Engineer,projects,3,0.1876,Student Portal,3,1,0,0
+Persona_4_Transfer_Student,Backend Software Engineer,experience,1,0.5937,Software Development Intern,3,1,0,0
+Persona_4_Transfer_Student,Backend Software Engineer,certifications,,,,3,1,0,0
+Persona_4_Transfer_Student,Backend Software Engineer,other,,,,3,1,0,0
+Persona_4_Transfer_Student,Frontend Software Engineer,projects,1,0.2417,Weather Application,3,1,0,0
+Persona_4_Transfer_Student,Frontend Software Engineer,projects,2,0.2341,Library Management System,3,1,0,0
+Persona_4_Transfer_Student,Frontend Software Engineer,projects,3,0.1601,Student Portal,3,1,0,0
+Persona_4_Transfer_Student,Frontend Software Engineer,experience,1,0.5894,Software Development Intern,3,1,0,0
+Persona_4_Transfer_Student,Frontend Software Engineer,certifications,,,,3,1,0,0
+Persona_4_Transfer_Student,Frontend Software Engineer,other,,,,3,1,0,0
+Persona_4_Transfer_Student,Full Stack Software Engineer,projects,1,0.2478,Library Management System,3,1,0,0
+Persona_4_Transfer_Student,Full Stack Software Engineer,projects,2,0.1806,Weather Application,3,1,0,0
+Persona_4_Transfer_Student,Full Stack Software Engineer,projects,3,0.1755,Student Portal,3,1,0,0
+Persona_4_Transfer_Student,Full Stack Software Engineer,experience,1,0.5751,Software Development Intern,3,1,0,0
+Persona_4_Transfer_Student,Full Stack Software Engineer,certifications,,,,3,1,0,0
+Persona_4_Transfer_Student,Full Stack Software Engineer,other,,,,3,1,0,0
+Persona_4_Transfer_Student,Data Scientist / Machine Learning Engineer,projects,1,0.193,Library Management System,3,1,0,0
+Persona_4_Transfer_Student,Data Scientist / Machine Learning Engineer,projects,2,0.1807,Weather Application,3,1,0,0
+Persona_4_Transfer_Student,Data Scientist / Machine Learning Engineer,projects,3,0.1039,Student Portal,3,1,0,0
+Persona_4_Transfer_Student,Data Scientist / Machine Learning Engineer,experience,1,0.483,Software Development Intern,3,1,0,0
+Persona_4_Transfer_Student,Data Scientist / Machine Learning Engineer,certifications,,,,3,1,0,0
+Persona_4_Transfer_Student,Data Scientist / Machine Learning Engineer,other,,,,3,1,0,0
+Persona_4_Transfer_Student,DevOps / Cloud Engineer,projects,1,0.1522,Weather Application,3,1,0,0
+Persona_4_Transfer_Student,DevOps / Cloud Engineer,projects,2,0.1023,Library Management System,3,1,0,0
+Persona_4_Transfer_Student,DevOps / Cloud Engineer,projects,3,0.0662,Student Portal,3,1,0,0
+Persona_4_Transfer_Student,DevOps / Cloud Engineer,experience,1,0.3946,Software Development Intern,3,1,0,0
+Persona_4_Transfer_Student,DevOps / Cloud Engineer,certifications,,,,3,1,0,0
+Persona_4_Transfer_Student,DevOps / Cloud Engineer,other,,,,3,1,0,0
+Persona_5_Minimalist_Formatter,Backend Software Engineer,projects,1,0.3026,Weather Dashboard,3,1,1,0
+Persona_5_Minimalist_Formatter,Backend Software Engineer,projects,2,0.2611,Chat Application,3,1,1,0
+Persona_5_Minimalist_Formatter,Backend Software Engineer,projects,3,0.2277,Expense Manager,3,1,1,0
+Persona_5_Minimalist_Formatter,Backend Software Engineer,experience,1,0.7085,Software Intern,3,1,1,0
+Persona_5_Minimalist_Formatter,Backend Software Engineer,certifications,1,0.2733,Cloud Computing Certification,3,1,1,0
+Persona_5_Minimalist_Formatter,Backend Software Engineer,other,,,,3,1,1,0
+Persona_5_Minimalist_Formatter,Frontend Software Engineer,projects,1,0.2707,Weather Dashboard,3,1,1,0
+Persona_5_Minimalist_Formatter,Frontend Software Engineer,projects,2,0.2382,Chat Application,3,1,1,0
+Persona_5_Minimalist_Formatter,Frontend Software Engineer,projects,3,0.1933,Expense Manager,3,1,1,0
+Persona_5_Minimalist_Formatter,Frontend Software Engineer,experience,1,0.7743,Software Intern,3,1,1,0
+Persona_5_Minimalist_Formatter,Frontend Software Engineer,certifications,1,0.2284,Cloud Computing Certification,3,1,1,0
+Persona_5_Minimalist_Formatter,Frontend Software Engineer,other,,,,3,1,1,0
+Persona_5_Minimalist_Formatter,Full Stack Software Engineer,projects,1,0.1939,Chat Application,3,1,1,0
+Persona_5_Minimalist_Formatter,Full Stack Software Engineer,projects,2,0.1904,Expense Manager,3,1,1,0
+Persona_5_Minimalist_Formatter,Full Stack Software Engineer,projects,3,0.1662,Weather Dashboard,3,1,1,0
+Persona_5_Minimalist_Formatter,Full Stack Software Engineer,experience,1,0.5641,Software Intern,3,1,1,0
+Persona_5_Minimalist_Formatter,Full Stack Software Engineer,certifications,1,0.2482,Cloud Computing Certification,3,1,1,0
+Persona_5_Minimalist_Formatter,Full Stack Software Engineer,other,,,,3,1,1,0
+Persona_5_Minimalist_Formatter,Data Scientist / Machine Learning Engineer,projects,1,0.2577,Expense Manager,3,1,1,0
+Persona_5_Minimalist_Formatter,Data Scientist / Machine Learning Engineer,projects,2,0.2038,Weather Dashboard,3,1,1,0
+Persona_5_Minimalist_Formatter,Data Scientist / Machine Learning Engineer,projects,3,0.1531,Chat Application,3,1,1,0
+Persona_5_Minimalist_Formatter,Data Scientist / Machine Learning Engineer,experience,1,0.4102,Software Intern,3,1,1,0
+Persona_5_Minimalist_Formatter,Data Scientist / Machine Learning Engineer,certifications,1,0.2621,Cloud Computing Certification,3,1,1,0
+Persona_5_Minimalist_Formatter,Data Scientist / Machine Learning Engineer,other,,,,3,1,1,0
+Persona_5_Minimalist_Formatter,DevOps / Cloud Engineer,projects,1,0.2117,Weather Dashboard,3,1,1,0
+Persona_5_Minimalist_Formatter,DevOps / Cloud Engineer,projects,2,0.1661,Chat Application,3,1,1,0
+Persona_5_Minimalist_Formatter,DevOps / Cloud Engineer,projects,3,0.0671,Expense Manager,3,1,1,0
+Persona_5_Minimalist_Formatter,DevOps / Cloud Engineer,experience,1,0.3942,Software Intern,3,1,1,0
+Persona_5_Minimalist_Formatter,DevOps / Cloud Engineer,certifications,1,0.5455,Cloud Computing Certification,3,1,1,0
+Persona_5_Minimalist_Formatter,DevOps / Cloud Engineer,other,,,,3,1,1,0
+Persona_6_Non_CS_Background,Backend Software Engineer,projects,1,0.4602,Study Planner,4,0,2,1
+Persona_6_Non_CS_Background,Backend Software Engineer,projects,2,0.3705,Research Assistant Portal,4,0,2,1
+Persona_6_Non_CS_Background,Backend Software Engineer,projects,3,0.3232,AI Learning Assistant,4,0,2,1
+Persona_6_Non_CS_Background,Backend Software Engineer,projects,4,0.2529,Open Source Data Visualizer,4,0,2,1
+Persona_6_Non_CS_Background,Backend Software Engineer,experience,,,,4,0,2,1
+Persona_6_Non_CS_Background,Backend Software Engineer,certifications,1,0.3393,freeCodeCamp Web Development,4,0,2,1
+Persona_6_Non_CS_Background,Backend Software Engineer,certifications,2,0.2972,Coursera Python Programming,4,0,2,1
+Persona_6_Non_CS_Background,Backend Software Engineer,other,1,0.3282,[competitive_programming] Practicing algorithms on coding platforms.,4,0,2,1
+Persona_6_Non_CS_Background,Frontend Software Engineer,projects,1,0.4398,Study Planner,4,0,2,1
+Persona_6_Non_CS_Background,Frontend Software Engineer,projects,2,0.3389,Research Assistant Portal,4,0,2,1
+Persona_6_Non_CS_Background,Frontend Software Engineer,projects,3,0.3024,AI Learning Assistant,4,0,2,1
+Persona_6_Non_CS_Background,Frontend Software Engineer,projects,4,0.2519,Open Source Data Visualizer,4,0,2,1
+Persona_6_Non_CS_Background,Frontend Software Engineer,experience,,,,4,0,2,1
+Persona_6_Non_CS_Background,Frontend Software Engineer,certifications,1,0.3309,freeCodeCamp Web Development,4,0,2,1
+Persona_6_Non_CS_Background,Frontend Software Engineer,certifications,2,0.2669,Coursera Python Programming,4,0,2,1
+Persona_6_Non_CS_Background,Frontend Software Engineer,other,1,0.3173,[competitive_programming] Practicing algorithms on coding platforms.,4,0,2,1
+Persona_6_Non_CS_Background,Full Stack Software Engineer,projects,1,0.4159,Study Planner,4,0,2,1
+Persona_6_Non_CS_Background,Full Stack Software Engineer,projects,2,0.3169,Research Assistant Portal,4,0,2,1
+Persona_6_Non_CS_Background,Full Stack Software Engineer,projects,3,0.3164,AI Learning Assistant,4,0,2,1
+Persona_6_Non_CS_Background,Full Stack Software Engineer,projects,4,0.1682,Open Source Data Visualizer,4,0,2,1
+Persona_6_Non_CS_Background,Full Stack Software Engineer,experience,,,,4,0,2,1
+Persona_6_Non_CS_Background,Full Stack Software Engineer,certifications,1,0.317,freeCodeCamp Web Development,4,0,2,1
+Persona_6_Non_CS_Background,Full Stack Software Engineer,certifications,2,0.3045,Coursera Python Programming,4,0,2,1
+Persona_6_Non_CS_Background,Full Stack Software Engineer,other,1,0.387,[competitive_programming] Practicing algorithms on coding platforms.,4,0,2,1
+Persona_6_Non_CS_Background,Data Scientist / Machine Learning Engineer,projects,1,0.4244,AI Learning Assistant,4,0,2,1
+Persona_6_Non_CS_Background,Data Scientist / Machine Learning Engineer,projects,2,0.4187,Study Planner,4,0,2,1
+Persona_6_Non_CS_Background,Data Scientist / Machine Learning Engineer,projects,3,0.2815,Research Assistant Portal,4,0,2,1
+Persona_6_Non_CS_Background,Data Scientist / Machine Learning Engineer,projects,4,0.2723,Open Source Data Visualizer,4,0,2,1
+Persona_6_Non_CS_Background,Data Scientist / Machine Learning Engineer,experience,,,,4,0,2,1
+Persona_6_Non_CS_Background,Data Scientist / Machine Learning Engineer,certifications,1,0.2914,Coursera Python Programming,4,0,2,1
+Persona_6_Non_CS_Background,Data Scientist / Machine Learning Engineer,certifications,2,0.2398,freeCodeCamp Web Development,4,0,2,1
+Persona_6_Non_CS_Background,Data Scientist / Machine Learning Engineer,other,1,0.4028,[competitive_programming] Practicing algorithms on coding platforms.,4,0,2,1
+Persona_6_Non_CS_Background,DevOps / Cloud Engineer,projects,1,0.2876,Study Planner,4,0,2,1
+Persona_6_Non_CS_Background,DevOps / Cloud Engineer,projects,2,0.247,AI Learning Assistant,4,0,2,1
+Persona_6_Non_CS_Background,DevOps / Cloud Engineer,projects,3,0.2453,Research Assistant Portal,4,0,2,1
+Persona_6_Non_CS_Background,DevOps / Cloud Engineer,projects,4,0.1745,Open Source Data Visualizer,4,0,2,1
+Persona_6_Non_CS_Background,DevOps / Cloud Engineer,experience,,,,4,0,2,1
+Persona_6_Non_CS_Background,DevOps / Cloud Engineer,certifications,1,0.2429,freeCodeCamp Web Development,4,0,2,1
+Persona_6_Non_CS_Background,DevOps / Cloud Engineer,certifications,2,0.1575,Coursera Python Programming,4,0,2,1
+Persona_6_Non_CS_Background,DevOps / Cloud Engineer,other,1,0.2713,[competitive_programming] Practicing algorithms on coding platforms.,4,0,2,1
+Persona_7_Overlapping_Timeline,Backend Software Engineer,projects,1,0.2433,Chatbot,3,3,0,0
+Persona_7_Overlapping_Timeline,Backend Software Engineer,projects,2,0.2034,Recommendation System,3,3,0,0
+Persona_7_Overlapping_Timeline,Backend Software Engineer,projects,3,0.0594,Image Classifier,3,3,0,0
+Persona_7_Overlapping_Timeline,Backend Software Engineer,experience,1,0.5393,Software Intern A,3,3,0,0
+Persona_7_Overlapping_Timeline,Backend Software Engineer,experience,2,0.3231,AI Intern B,3,3,0,0
+Persona_7_Overlapping_Timeline,Backend Software Engineer,experience,3,0.2087,Built websites for small businesses.,3,3,0,0
+Persona_7_Overlapping_Timeline,Backend Software Engineer,certifications,,,,3,3,0,0
+Persona_7_Overlapping_Timeline,Backend Software Engineer,other,,,,3,3,0,0
+Persona_7_Overlapping_Timeline,Frontend Software Engineer,projects,1,0.2053,Chatbot,3,3,0,0
+Persona_7_Overlapping_Timeline,Frontend Software Engineer,projects,2,0.1465,Recommendation System,3,3,0,0
+Persona_7_Overlapping_Timeline,Frontend Software Engineer,projects,3,0.075,Image Classifier,3,3,0,0
+Persona_7_Overlapping_Timeline,Frontend Software Engineer,experience,1,0.51,Software Intern A,3,3,0,0
+Persona_7_Overlapping_Timeline,Frontend Software Engineer,experience,2,0.2939,AI Intern B,3,3,0,0
+Persona_7_Overlapping_Timeline,Frontend Software Engineer,experience,3,0.201,Built websites for small businesses.,3,3,0,0
+Persona_7_Overlapping_Timeline,Frontend Software Engineer,certifications,,,,3,3,0,0
+Persona_7_Overlapping_Timeline,Frontend Software Engineer,other,,,,3,3,0,0
+Persona_7_Overlapping_Timeline,Full Stack Software Engineer,projects,1,0.1607,Chatbot,3,3,0,0
+Persona_7_Overlapping_Timeline,Full Stack Software Engineer,projects,2,0.1269,Recommendation System,3,3,0,0
+Persona_7_Overlapping_Timeline,Full Stack Software Engineer,projects,3,0.0519,Image Classifier,3,3,0,0
+Persona_7_Overlapping_Timeline,Full Stack Software Engineer,experience,1,0.5266,Software Intern A,3,3,0,0
+Persona_7_Overlapping_Timeline,Full Stack Software Engineer,experience,2,0.3342,AI Intern B,3,3,0,0
+Persona_7_Overlapping_Timeline,Full Stack Software Engineer,experience,3,0.2001,Built websites for small businesses.,3,3,0,0
+Persona_7_Overlapping_Timeline,Full Stack Software Engineer,certifications,,,,3,3,0,0
+Persona_7_Overlapping_Timeline,Full Stack Software Engineer,other,,,,3,3,0,0
+Persona_7_Overlapping_Timeline,Data Scientist / Machine Learning Engineer,projects,1,0.2211,Image Classifier,3,3,0,0
+Persona_7_Overlapping_Timeline,Data Scientist / Machine Learning Engineer,projects,2,0.1992,Recommendation System,3,3,0,0
+Persona_7_Overlapping_Timeline,Data Scientist / Machine Learning Engineer,projects,3,0.1717,Chatbot,3,3,0,0
+Persona_7_Overlapping_Timeline,Data Scientist / Machine Learning Engineer,experience,1,0.4207,Software Intern A,3,3,0,0
+Persona_7_Overlapping_Timeline,Data Scientist / Machine Learning Engineer,experience,2,0.3656,AI Intern B,3,3,0,0
+Persona_7_Overlapping_Timeline,Data Scientist / Machine Learning Engineer,experience,3,0.1011,Built websites for small businesses.,3,3,0,0
+Persona_7_Overlapping_Timeline,Data Scientist / Machine Learning Engineer,certifications,,,,3,3,0,0
+Persona_7_Overlapping_Timeline,Data Scientist / Machine Learning Engineer,other,,,,3,3,0,0
+Persona_7_Overlapping_Timeline,DevOps / Cloud Engineer,projects,1,0.1816,Chatbot,3,3,0,0
+Persona_7_Overlapping_Timeline,DevOps / Cloud Engineer,projects,2,0.0258,Image Classifier,3,3,0,0
+Persona_7_Overlapping_Timeline,DevOps / Cloud Engineer,projects,3,0.0209,Recommendation System,3,3,0,0
+Persona_7_Overlapping_Timeline,DevOps / Cloud Engineer,experience,1,0.2755,Software Intern A,3,3,0,0
+Persona_7_Overlapping_Timeline,DevOps / Cloud Engineer,experience,2,0.1966,AI Intern B,3,3,0,0
+Persona_7_Overlapping_Timeline,DevOps / Cloud Engineer,experience,3,0.1691,Built websites for small businesses.,3,3,0,0
+Persona_7_Overlapping_Timeline,DevOps / Cloud Engineer,certifications,,,,3,3,0,0
+Persona_7_Overlapping_Timeline,DevOps / Cloud Engineer,other,,,,3,3,0,0
+Persona_8_Bare_Minimum,Backend Software Engineer,projects,,,,0,0,0,0
+Persona_8_Bare_Minimum,Backend Software Engineer,experience,,,,0,0,0,0
+Persona_8_Bare_Minimum,Backend Software Engineer,certifications,,,,0,0,0,0
+Persona_8_Bare_Minimum,Backend Software Engineer,other,,,,0,0,0,0
+Persona_8_Bare_Minimum,Frontend Software Engineer,projects,,,,0,0,0,0
+Persona_8_Bare_Minimum,Frontend Software Engineer,experience,,,,0,0,0,0
+Persona_8_Bare_Minimum,Frontend Software Engineer,certifications,,,,0,0,0,0
+Persona_8_Bare_Minimum,Frontend Software Engineer,other,,,,0,0,0,0
+Persona_8_Bare_Minimum,Full Stack Software Engineer,projects,,,,0,0,0,0
+Persona_8_Bare_Minimum,Full Stack Software Engineer,experience,,,,0,0,0,0
+Persona_8_Bare_Minimum,Full Stack Software Engineer,certifications,,,,0,0,0,0
+Persona_8_Bare_Minimum,Full Stack Software Engineer,other,,,,0,0,0,0
+Persona_8_Bare_Minimum,Data Scientist / Machine Learning Engineer,projects,,,,0,0,0,0
+Persona_8_Bare_Minimum,Data Scientist / Machine Learning Engineer,experience,,,,0,0,0,0
+Persona_8_Bare_Minimum,Data Scientist / Machine Learning Engineer,certifications,,,,0,0,0,0
+Persona_8_Bare_Minimum,Data Scientist / Machine Learning Engineer,other,,,,0,0,0,0
+Persona_8_Bare_Minimum,DevOps / Cloud Engineer,projects,,,,0,0,0,0
+Persona_8_Bare_Minimum,DevOps / Cloud Engineer,experience,,,,0,0,0,0
+Persona_8_Bare_Minimum,DevOps / Cloud Engineer,certifications,,,,0,0,0,0
+Persona_8_Bare_Minimum,DevOps / Cloud Engineer,other,,,,0,0,0,0
