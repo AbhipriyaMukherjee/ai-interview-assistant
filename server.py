@@ -13,6 +13,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from backend.models import db, User, InterviewResult
 from backend.ai_service import ai_service  
 from backend.resume_parser import extract_skills_and_roles
+from latex_export.generate import generate_latex, compile_pdf
 from backend.audio_analysis import analyze_speech
 from backend.video_analysis import analyze_video_file
 
@@ -58,6 +59,22 @@ def resume_module():
             session['user_skills'] = skills
             return render_template("job_recommendations.html", roles=roles, skills=skills)
     return render_template("resume_upload.html")
+
+# --- LaTeX Resume Generation ---
+@app.route("/generate_resume", methods=["POST"])
+@login_required
+def generate_resume():
+    """Generates a PDF resume from structured resume data."""
+
+    data = request.get_json() or {}
+
+    tex_path = generate_latex(data)
+    pdf_path = compile_pdf(tex_path)
+
+    return jsonify({
+        "status": "success",
+        "pdf_path": pdf_path
+    })
 
 # --- 2-Question Interview Loop ---
 @app.route("/interview/live")

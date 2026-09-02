@@ -1,3 +1,5 @@
+import os 
+
 def generate_latex(resume):
     """
     Converts the structured resume JSON into a LaTeX document.
@@ -56,8 +58,30 @@ def generate_latex(resume):
 \end{document}
 """
 
-    return latex
+    output_path = os.path.join(os.path.dirname(__file__), "resume.tex")
 
+    with open(output_path, "w", encoding="utf-8") as file:
+        file.write(latex)
+
+    return output_path
+
+def compile_pdf(tex_path):
+    """
+    Converts the LaTeX .tex file into a PDF using pdflatex.
+    """
+
+    pdflatex_path = r"C:\Users\KIIT0001\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdflatex.exe"
+
+    output_dir = os.path.dirname(tex_path)
+
+    os.system(
+        f'"{pdflatex_path}" -interaction=nonstopmode '
+        f'-output-directory="{output_dir}" "{tex_path}"'
+    )
+
+    pdf_path = os.path.splitext(tex_path)[0] + ".pdf"
+
+    return pdf_path
 
 if __name__ == "__main__":
     resume_data = {
@@ -73,9 +97,8 @@ if __name__ == "__main__":
         ]
     }
 
-    latex_code = generate_latex(resume_data)
-
-    with open("latex_export/resume.tex", "w", encoding="utf-8") as file:
-     file.write(latex_code)
+    tex_path = generate_latex(resume_data)
+    pdf_path = compile_pdf(tex_path)
 
     print("LaTeX resume generated successfully!")
+    print("PDF generated at:", pdf_path)
